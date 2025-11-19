@@ -68,14 +68,20 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
           <span className="block text-slate-500 font-medium mb-4 tracking-wide">
-            ANALYTICS ENGINEER | DATA PIPELINE DEVELOPMENT
+            PROCESS AUTOMATION & DATA SYSTEMS
           </span>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-6 text-zinc-900">
-            Eliminating the manual. Enabling the <span className="text-slate-500">measurable.</span>
+            Eliminating manual work. <br />
+            Enabling <span className="text-slate-500">measurable impact.</span>
           </h1>
-          <p className="text-lg md:text-xl text-zinc-500 max-w-md leading-relaxed mb-10">
-            I build automated data systems that eliminate manual work and enable better decisions. 
-            14+ hours saved monthly | 90%+ error reduction.
+          <p className="text-lg md:text-xl text-zinc-500 max-w-md leading-relaxed mb-4">
+            I identify operational bottlenecks and build data-driven solutions. 
+            At Navan (payroll operations), I built automation systems that eliminated 14+ hours of monthly 
+            manual work and reduced errors by 90%+.
+          </p>
+          <p className="text-base text-zinc-600 max-w-md leading-relaxed mb-10">
+            Current focus: Applying automation expertise to finance and 
+            accounting operations—where the biggest transformation opportunities exist.
           </p>
           
           <div className="flex items-center space-x-6">

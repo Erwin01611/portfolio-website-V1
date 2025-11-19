@@ -14,9 +14,9 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Multi-Country Reconciliation System",
+    title: "Multi-Month Reconciliation System",
     problem: "Reconciling payroll across EN/DE regions required parsing 100-400 page unstructured PDF reports with no structured data export.",
-    solution: "Built a regex-based extraction tool that parses documents across languages/formats into structured employee-level data tables for SQL ingestion.",
+    solution: "Built a regex-based extraction tool that parses documents across languages/formats into structured employee-level data tables in CSVs.",
     impact: "Enabled previously impossible reconciliation processes. Saved ~6 hours monthly on regular audits.",
     tech: ["Python", "Unstructured Data", "Data Cleaning", "Automation"]
   },

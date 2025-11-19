@@ -8,8 +8,8 @@ export const Trajectory: React.FC = () => {
     <section id={SectionId.TRAJECTORY} className="py-32 px-6 bg-white relative overflow-hidden">
       <div className="max-w-4xl mx-auto relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-zinc-900 tracking-tight mb-4">Trajectory</h2>
-          <p className="text-zinc-500">Transitioning from operational excellence to data science leadership.</p>
+          <h2 className="text-3xl font-bold text-zinc-900 tracking-tight mb-4">Education & Development</h2>
+          <p className="text-zinc-500">Combining operations experience with data science education—transitioning from process automation to advanced analytics.</p>
         </div>
 
         <div className="space-y-6">
@@ -56,7 +56,7 @@ export const Trajectory: React.FC = () => {
                 <strong>Majors:</strong> Quantitative Methods, Banking & International Finance.
               </p>
               <p className="text-zinc-600 text-sm italic">
-                Thesis: "Calendar Effects for Electricity Price Forecasts" (Statistical modeling of 34k+ observations).
+                Thesis: "Calendar Effects for Electricity Price Forecasts" (Time series analysis of 34,000+ observations using LASSO AR-X, ARIMA, GARCH).
               </p>
             </div>
           </motion.div>
@@ -115,20 +115,6 @@ export const Trajectory: React.FC = () => {
               </div>
             </div>
           </motion.div>
-
-           <motion.div 
-             initial={{ opacity: 0 }}
-             whileInView={{ opacity: 1 }}
-             viewport={{ once: true }}
-             transition={{ delay: 0.25 }}
-             className="flex items-center justify-center pt-12 gap-4 text-sm font-medium text-slate-500"
-           >
-             <span>Operations</span>
-             <ArrowRight size={16} />
-             <span>Analytics Engineering</span>
-             <ArrowRight size={16} />
-             <span className="text-zinc-900">Data Science</span>
-           </motion.div>
         </div>
       </div>
     </section>

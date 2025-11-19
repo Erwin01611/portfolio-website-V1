@@ -3,11 +3,58 @@ import { SectionId, SkillCategory } from '../types';
 import { motion } from 'framer-motion';
 
 const skills: SkillCategory[] = [
-  { category: "Data Engineering", skills: ["Python", "Pandas", "SQL", "ETL Pipeline Design", "Data Validation"] },
-  { category: "Quantitative Analysis", skills: ["Time Series (ARIMA/GARCH)", "Statistical Modeling", "Feature Engineering", "Predictive Analytics"] },
-  { category: "Automation", skills: ["n8n Workflows", "Regex-based Extraction", "API Integrations", "Process Optimization"] },
-  { category: "Financial Systems", skills: ["Workday Administration", "DATEV", "Compliance Regulations", "Payroll Operations"] },
-  { category: "Visualization", skills: ["Power BI", "Tableau", "Data Storytelling", "KPI Dashboards"] },
+  { 
+    category: "Process Automation", 
+    skills: [
+      "Workflow Orchestration (n8n)",
+      "Python Automation",
+      "API Integrations",
+      "Webhook Triggers",
+      "Process Optimization",
+      "Excel/VBA Automation"
+    ]
+  },
+  { 
+    category: "Financial Systems & Operations", 
+    skills: [
+      "Workday",
+      "DATEV (German Payroll)",
+      "Month-End Close",
+      "Reconciliation Workflows",
+      "Compliance & Audit",
+      "Payroll Operations"
+    ]
+  },
+  { 
+    category: "Data Engineering", 
+    skills: [
+      "Python (Pandas, Regex)",
+      "SQL (Joins, Optimization)",
+      "ETL Pipeline Design",
+      "Data Validation",
+      "PDF/Document Parsing"
+    ]
+  },
+  { 
+    category: "Quantitative Analysis", 
+    skills: [
+      "Time Series (ARIMA/GARCH)",
+      "Statistical Modeling",
+      "Feature Engineering",
+      "Predictive Analytics",
+      "Hypothesis Testing"
+    ]
+  },
+  { 
+    category: "Visualization & BI", 
+    skills: [
+      "Power BI",
+      "Tableau",
+      "Data Storytelling",
+      "KPI Dashboards",
+      "Report Automation"
+    ]
+  }
 ];
 
 export const TechStack: React.FC = () => {

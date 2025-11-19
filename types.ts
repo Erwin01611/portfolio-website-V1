@@ -22,6 +22,7 @@ export interface SkillCategory {
 export enum SectionId {
   HERO = 'hero',
   IMPACT = 'impact',
+  STRATEGY = 'strategy',
   PROJECTS = 'projects',
   QUANTITATIVE = 'quantitative',
   TECH = 'tech',
