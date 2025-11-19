@@ -10,7 +10,7 @@ export const Contact: React.FC = () => {
           Ready to build better systems?
         </h2>
         <p className="text-lg text-zinc-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-          I am open to Analytics Engineering, Data Analysis, and BI roles where technical depth meets measurable business impact.
+          I'm pursuing Analytics Engineering and Finance Operations Automation roles. If you need someone who identifies bottlenecks and ships solutions, let's connect.
         </p>
         
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-16">
@@ -22,11 +22,10 @@ export const Contact: React.FC = () => {
             farruxmirzaev@outlook.com
           </a>
           <div className="flex gap-4">
-            <a href="https://linkedin.com/in/farrukh-mirzaev" target="_blank" rel="noreferrer" className="p-4 border border-zinc-700 rounded-full hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-white">
+            <a href="https://www.linkedin.com/in/farrukhmirzaev/" target="_blank" rel="noreferrer" className="p-4 border border-zinc-700 rounded-full hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-white">
               <Linkedin size={20} />
             </a>
-            {/* Assuming GitHub exists or acts as a placeholder for Portfolio links */}
-            <a href="#" className="p-4 border border-zinc-700 rounded-full hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-white">
+            <a href="https://github.com/Erwin01611" target="_blank" rel="noreferrer" className="p-4 border border-zinc-700 rounded-full hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-white">
               <Github size={20} />
             </a>
           </div>

@@ -36,7 +36,7 @@ export const Quantitative: React.FC = () => {
             transition={{ delay: 0.1 }}
             className="text-3xl md:text-4xl font-bold text-zinc-900 mb-6 tracking-tight"
           >
-            Rigorous analysis backed by statistical depth.
+            Strong quantitative foundation applied to real-world forecasting.
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -45,9 +45,7 @@ export const Quantitative: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-zinc-500 leading-relaxed mb-6"
           >
-            My approach is grounded in formal statistical training. My Bachelor's thesis, 
-            "Calendar Effects for Electricity Price Forecasts," utilized 34,320 data points to compare LASSO AR-X, 
-            ARIMA, SARIMA, and GARCH models.
+            Strong statistical foundation from hands-on forecasting work. My thesis analyzed 34,320 observations using advanced time series models (LASSO AR-X, ARIMA, SARIMA, GARCH)—the same techniques used in demand forecasting, financial modeling, and operational planning.
           </motion.p>
           <motion.ul 
             initial={{ opacity: 0 }}
