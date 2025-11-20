@@ -87,7 +87,7 @@ export const Projects: React.FC = () => {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-bold text-zinc-900 mb-4 tracking-tight"
           >
-            Selected Work
+            Technical Case Studies
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -96,7 +96,7 @@ export const Projects: React.FC = () => {
             transition={{ delay: 0.1 }}
             className="text-zinc-500 max-w-xl text-lg"
           >
-            Systems designed for reliability, automation, and measurable business impact.
+            Detailed implementation of production systems built at Navan
           </motion.p>
         </div>
 
