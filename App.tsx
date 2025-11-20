@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav } from './components/Nav';
 import { Hero } from './components/Hero';
 import { ImpactMetrics } from './components/ImpactMetrics';
+import { Experience } from './components/Experience';
 import { StrategicFocus } from './components/StrategicFocus';
 import { Projects } from './components/Projects';
 import { Quantitative } from './components/Quantitative';
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <div className="flex flex-col">
         <Hero />
         <ImpactMetrics />
+        <Experience />
         <StrategicFocus />
         <Projects />
         <Quantitative />
