@@ -1,7 +1,7 @@
 import React from 'react';
 import { SectionId } from '../types';
 import { motion } from 'framer-motion';
-import { GraduationCap, Activity, ArrowRight, BookOpen } from 'lucide-react';
+import { GraduationCap, Activity, BookOpen } from 'lucide-react';
 
 export const Trajectory: React.FC = () => {
   return (
