@@ -23,6 +23,7 @@ export const Nav: React.FC = () => {
   };
 
   const navLinks = [
+    { label: 'Experience', id: SectionId.EXPERIENCE },
     { label: 'Projects', id: SectionId.PROJECTS },
     { label: 'Focus', id: SectionId.STRATEGY },
     { label: 'Analytics', id: SectionId.QUANTITATIVE },
